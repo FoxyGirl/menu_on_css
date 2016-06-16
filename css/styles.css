@@ -1,0 +1,102 @@
+.main-header {  
+  background: #eee;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.wrap {
+  margin: 0 20px;
+  border-top: 1px solid transparent;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*
+.main-nav {
+  float: left;
+  max-width: 600px;
+  margin-top: 30px;
+}
+*/
+
+.main-nav {
+  float: right;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.main-nav ul {  
+  margin: 0;
+  padding: 0;
+  
+  list-style-type: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.main-nav a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  background-color: #124;
+  color: #fff;
+  border-right: 1px solid #bbb;
+}
+
+.main-nav a:hover {
+  background-color: #146;
+}
+
+.login {
+  display: none;
+  float: right;
+  margin-top: 30px;
+  max-width: 150px;
+  background-color: deepskyblue;
+}
+
+.login a {
+  display: block;
+  padding: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  
+  .logo {
+    float: none;
+    text-align: center;
+  }
+  
+  .main-nav {
+    float: none;
+    text-align: left;
+  }
+  
+  .main-nav li {
+    display: block;
+    float: none;
+  }
+  
+  .main-nav a {
+    border-right: none;
+    border-bottom: 1px solid #bbb;
+  }
+  
+
+}
